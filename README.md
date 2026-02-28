@@ -11,10 +11,11 @@ Este repositório serve como o meu laboratório de estudos e biblioteca de consu
 Como estudante do 5º período, foco-me na aplicação de padrões que tornam o código mais escalável e fácil de manter:
 
 * **Abstract Factory:** Criação de famílias de objetos relacionados (Botões e Checkboxes) sem especificar suas classes concretas. Essencial para garantir a coerência visual entre diferentes sistemas operacionais (Windows/Mac).
+* **Adapter:** Conversão de interfaces para compatibilidade entre classes.
+* **Composite:** Permite compor objetos em estruturas de árvore para representar hierarquias partes-todo. O padrão permite que os clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+* **Factory Method:** Encapsulamento da lógica de criação de objetos em uma única operação.
 * **Singleton:** Garantir uma instância única para classes de configuração.
 * **Observer:** Implementação de sistemas baseados em eventos/notificações.
-* **Adapter:** Conversão de interfaces para compatibilidade entre classes.
-* **Factory Method:** Encapsulamento da lógica de criação de objetos em uma única operação.
 
 ## 📁 Estrutura do Repositório
 * `/Design-Patterns`: Exemplos isolados de cada padrão de projeto.
