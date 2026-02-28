@@ -13,6 +13,7 @@ Como estudante do 5º período, foco-me na aplicação de padrões que tornam o 
 * **Abstract Factory:** Criação de famílias de objetos relacionados (Botões e Checkboxes) sem especificar suas classes concretas. Essencial para garantir a coerência visual entre diferentes sistemas operacionais (Windows/Mac).
 * **Adapter:** Conversão de interfaces para compatibilidade entre classes.
 * **Composite:** Permite compor objetos em estruturas de árvore para representar hierarquias partes-todo. O padrão permite que os clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+* **Command:** Encapsula uma solicitação como um objeto, permitindo parametrizar clientes com diferentes solicitações, enfileirar ou registrar log de solicitações e suportar operações que podem ser desfeitas.
 * **Factory Method:** Encapsulamento da lógica de criação de objetos em uma única operação.
 * **Singleton:** Garantir uma instância única para classes de configuração.
 * **Observer:** Implementação de sistemas baseados em eventos/notificações.
