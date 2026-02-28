@@ -23,8 +23,7 @@ Como estudante do 5º período, foco-me na aplicação de padrões que tornam o 
 
 ## 🛠️ Tecnologias e Ferramentas
 * **Linguagem:** Java (JDK 17+)
-* **IDE:** NetBeans / IntelliJ IDEA
-* **Gestão de Dependências:** Maven (quando aplicável)
+* **IDE:** NetBeans 
 
 ## ⚙️ Como executar
 Como são projetos em Java, podes abrir a pasta raiz no teu NetBeans ou compilar via terminal:
