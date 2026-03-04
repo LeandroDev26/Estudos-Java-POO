@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author LEAND
  */
-public class atividade6 {
+public class atividade06 {
      public static void main(String[] args) {
          try (Scanner ler = new Scanner(System.in)) {
              System.out.println("Digite o ano de seu nascimento :");
