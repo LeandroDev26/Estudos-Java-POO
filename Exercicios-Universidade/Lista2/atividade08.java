@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author LEAND
  */
-public class atividade8 {
+public class atividade08 {
     public static void main(String[] args) {
         try (Scanner ler = new Scanner(System.in)) {
             System.out.println("Qual a distancia (km) que voce deseja percorrer :");
