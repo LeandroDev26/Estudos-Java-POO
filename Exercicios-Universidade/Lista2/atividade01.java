@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author LEAND
  */
-public class Lista2Atv1 {
+public class atividade01{
 
     public static void main(String[] args) {
        try (Scanner ler = new Scanner(System.in)) {
