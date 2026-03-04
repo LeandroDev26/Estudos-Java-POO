@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author LEAND
  */
-public class atividade4 {
+public class atividade04 {
      public static void main(String[] args) {
          try (Scanner ler = new Scanner(System.in)) {
              System.out.println(" Digite um numero inteiro :");
