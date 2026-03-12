@@ -5,7 +5,8 @@
 package com.mycompany.conversorromanos;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 /**
  *
@@ -13,40 +14,20 @@ import org.junit.jupiter.api.Test;
  */
 public class ConversorRomanosTest {
     
-  @Test
-  void testeConverter(){
-      ConversorRomanos conv = new ConversorRomanos();
-      String romano = conv.converter(1);
-      assertEquals("I" , romano, "1 em romano é I");
-      
-  }
-  
-   void testeConverter2(){
-      ConversorRomanos conv = new ConversorRomanos();
-      String romano = conv.converter(2);
-      assertEquals("II" , romano, "2 em romano é II");
-      
-  }
-  
-  void testeConverter3(){
-      ConversorRomanos conv = new ConversorRomanos();
-      String romano = conv.converter(3);
-      assertEquals("III" , romano, "3 em romano é III");
-      
-  }
-  
-  void testeConverter4(){
-      ConversorRomanos conv = new ConversorRomanos();
-      String romano = conv.converter(4);
-      assertEquals("IV" , romano, "4 em romano é IV");
-      
-  }
-  
-  void testeConverter5(){
-      ConversorRomanos conv = new ConversorRomanos();
-      String romano = conv.converter(5);
-      assertEquals("V" , romano, "5 em romano é V");
-      
-  }
-    
+
+@ParameterizedTest
+@CsvSource({
+    "1, I",
+    "4, IV",
+    "9, IX",
+    "14, XIV",
+    "44, XLIV",
+    "99, XCIX",
+    "2024, MMXXIV",
+    "3999, MMMCMXCIX"
+})
+void testeConversaoComplexa(int entrada, String esperado) {
+    ConversorRomanos conv = new ConversorRomanos();
+    assertEquals(esperado, conv.converter(entrada));
+}
 }
