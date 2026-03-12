@@ -41,5 +41,12 @@ public class ConversorRomanosTest {
       assertEquals("IV" , romano, "4 em romano é IV");
       
   }
+  
+  void testeConverter5(){
+      ConversorRomanos conv = new ConversorRomanos();
+      String romano = conv.converter(5);
+      assertEquals("V" , romano, "5 em romano é V");
+      
+  }
     
 }
