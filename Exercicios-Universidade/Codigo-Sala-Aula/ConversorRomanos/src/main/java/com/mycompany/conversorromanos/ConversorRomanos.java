@@ -10,9 +10,11 @@ package com.mycompany.conversorromanos;
 public class ConversorRomanos {
 
     String converter(int i) {
-        if (i == 3) 
+        if (i == 3) {
             return "III";
-        else
+        } else if (i == 2) {
+            return "II";
+        }
             return "I";
     }
 }
