@@ -14,6 +14,8 @@ public class ConversorRomanos {
             return "III";
         } else if (i == 2) {
             return "II";
+        }else if(i == 4){
+           return "IV"; 
         }
             return "I";
     }
